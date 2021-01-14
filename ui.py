@@ -78,7 +78,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("Youtube Video/Playlist Downloader", "Youtube Video/Playlist Downloader"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:20pt; color:#ffffff;\">Youtube Video / Playlist Downloader</span></p></body></html>"))
         self.d_v.setText(_translate("MainWindow", "Download"))
         self.d_pl.setText(_translate("MainWindow", "Download"))
